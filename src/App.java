@@ -9,6 +9,8 @@ public class App {
 
         DiamondExerciseClass tasks2 = new DiamondExerciseClass();
 //        tasks2.printNSizeCenteredTriangle(3);
-        tasks2.printDiamondTriangle(3);
+//        tasks2.printDiamondTriangle(3);
+        tasks2.printDiamondWithName(3);
+
     }
 }
