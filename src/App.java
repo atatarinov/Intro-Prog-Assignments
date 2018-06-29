@@ -1,16 +1,20 @@
 public class App {
     public static void main(String[] args) {
-//        TriangleExerciseClass tasks = new TriangleExerciseClass();
-//
-//        tasks.printAsterisk();
-//        tasks.printHorizontalLineNTimes(8);
-//        tasks.printVerticalLineNTimes(3);
-//        tasks.printNSizeRightTriangle(3);
+        TriangleExerciseClass task = new TriangleExerciseClass();
 
-        DiamondExerciseClass tasks2 = new DiamondExerciseClass();
-//        tasks2.printNSizeCenteredTriangle(3);
-//        tasks2.printDiamondTriangle(3);
-        tasks2.printDiamondWithName(3);
+//        task.printAsterisk();
+//        task.printHorizontalLineNTimes(8);
+//        task.printVerticalLineNTimes(3);
+//        task.printNSizeRightTriangle(3);
 
+        DiamondExerciseClass task2 = new DiamondExerciseClass();
+
+//        task2.printNSizeCenteredTriangle(3);
+//        task2.printDiamondTriangle(3);
+//        task2.printDiamondWithName(3);
+
+        FizzBuzzAndPrimeClass task3 = new FizzBuzzAndPrimeClass();
+
+        task3.FizzBuzz();
     }
 }
