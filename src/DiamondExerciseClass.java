@@ -2,18 +2,18 @@ import java.util.Arrays;
 
 public class DiamondExerciseClass {
 
-    public void addToTriangle(String[] triangle, int mid, int distance) {
+    private void addToTriangle(String[] triangle, int mid, int distance) {
         triangle[mid - distance] = "*";
         triangle[mid + distance] = "*";
     }
 
-    public void printTriangle(String[] triangle) {
+    private void printTriangle(String[] triangle) {
         System.out.println(String.join("", triangle));
     }
 
     public void printNSizeCenteredTriangle(int n) {
         if (n == 0) {
-            System.out.println("");
+            System.out.println();
         } else {
 
             int triangleSize = ((n - 1) * 2) + 1;
