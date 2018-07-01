@@ -17,7 +17,7 @@ public class DiamondExerciseClass {
     }
 
     private void printName() {
-        System.out.println("Alex");
+        System.out.println("Alex" );
     }
 
     public void printNSizeCenteredTriangle(int n) {

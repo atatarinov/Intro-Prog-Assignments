@@ -4,12 +4,12 @@ public class TriangleExerciseClass {
         System.out.println("*" );
     }
 
-    private void printHorizontalLineNTimes(int n) {
+    public void printHorizontalLineNTimes(int n) {
         StringBuilder line = new StringBuilder();
 
         int count = 0;
         while (count < n) {
-            line.append("*");
+            line.append("*" );
             count += 1;
         }
         System.out.println(line);
@@ -18,7 +18,7 @@ public class TriangleExerciseClass {
     public void printVerticalLineNTimes(int n) {
         int count = 0;
         while (count < n) {
-            System.out.println("*");
+            System.out.println("*" );
             count += 1;
         }
     }
