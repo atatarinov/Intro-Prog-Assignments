@@ -12,7 +12,7 @@ public class FizzBuzzAndPrimeClass {
             return false;
         }
 
-        for (int i = 2; i < num; i++) {
+        for (int i = 2; i < Math.ceil(Math.sqrt(num)); i++) {
             if (num % i == 0) {
                 return false;
             }
@@ -41,7 +41,7 @@ public class FizzBuzzAndPrimeClass {
     }
 
     public ArrayList<Integer> generate(int n) {
-        ArrayList<Integer> primeFactors = new ArrayList<Integer>();
+        ArrayList<Integer> primeFactors = new ArrayList<>();
 
         for (int i = 1; i <= n; i++) {
             if (isFactor(n, i) && isPrime(i)) {

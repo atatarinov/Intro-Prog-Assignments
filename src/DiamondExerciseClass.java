@@ -44,7 +44,7 @@ public class DiamondExerciseClass {
         }
     }
 
-    public void printDiamondTriangle(int n) {
+    public void printNSizeDiamondTriangle(int n) {
         if (n == 0) {
             System.out.println();
         } else {
@@ -76,7 +76,7 @@ public class DiamondExerciseClass {
         }
     }
 
-    public void printDiamondWithName(int n) {
+    public void printNSizeDiamondTriangleWithName(int n) {
         if (n == 0) {
             System.out.println();
         } else {
