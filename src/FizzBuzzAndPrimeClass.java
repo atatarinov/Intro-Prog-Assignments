@@ -12,7 +12,7 @@ public class FizzBuzzAndPrimeClass {
             return false;
         }
 
-        for (int i = 2; i < Math.ceil(Math.sqrt(num)); i++) {
+        for (int i = 2; i <= Math.ceil(Math.sqrt(num)); i++) {
             if (num % i == 0) {
                 return false;
             }
